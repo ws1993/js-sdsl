@@ -1,4 +1,4 @@
-# This repository has been migrated to [js-sdsl/js-sdsl](https://github.com/js-sdsl/js-sdsl).
+# 该仓库已被迁移至 [js-sdsl/js-sdsl](https://github.com/js-sdsl/js-sdsl)
 
 <p align="center">
   <a href="https://js-sdsl.github.io/" target="_blank" rel="noopener noreferrer">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-<h3><p align="center">A javascript standard data structure library which benchmark against C++ STL</p></h3>
+<h3><p align="center">一个参考 C++ STL 实现的 JavaScript 标准数据结构库</p></h3>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/js-sdsl"><img src="https://img.shields.io/npm/v/js-sdsl.svg" alt="NPM Version" /></a>
@@ -20,9 +20,9 @@
   <a href="https://github.com/ZLY201/js-sdsl/"><img src="https://img.shields.io/github/languages/top/ZLY201/js-sdsl.svg" alt="GITHUB-language" /></a>
 </p>
 
-<p align="center">English | <a href="https://github.com/ZLY201/js-sdsl/blob/main/README.zh-CN.md">简体中文</a></p>
+<p align="center"><a href="https://github.com/ZLY201/js-sdsl/blob/main/README.md">English</a> | 简体中文</p>
 
-## Included data structures
+## 包含的数据结构
 
 - Vector
 - Stack
@@ -37,40 +37,42 @@
 
 ## Benchmark
 
-We are benchmarking against other popular data structure libraries. In some ways we're better than the best library. See [benchmark](https://js-sdsl.github.io/#/test/benchmark-analyze).
+我们和其他数据结构库进行了基准测试，在某些场景我们甚至超过了当前最流行的库
 
-## Supported platforms
+查看 [benchmark](https://js-sdsl.github.io/#/zh-cn/test/benchmark-analyze) 以获取更多信息
+
+## 支持的平台
 
 - node.js (using commonjs)
 - react/vue (using es5)
 - browser (support most browsers)
 
-## Download
+## 下载
 
-Download directly
+使用 cdn 直接引入
 
 - [js-sdsl.js](https://unpkg.com/js-sdsl/dist/umd/js-sdsl.js) (for development)
 - [js-sdsl.min.js](https://unpkg.com/js-sdsl/dist/umd/js-sdsl.min.js) (for production)
 
-Or install js-sdsl using npm
+使用 npm 下载
 
 ```bash
 npm install js-sdsl
 ```
 
-## Usage
+## 使用说明
 
-You can visit our [official website](https://js-sdsl.github.io/) to get more information.
+您可以[访问我们的主页](https://js-sdsl.github.io/)获取更多信息
 
-To help you have a better use, we also provide this [API document](https://zly201.github.io/js-sdsl/index.html).
+并且我们提供了完整的 [API 文档](https://zly201.github.io/js-sdsl/index.html)供您参考
 
-### For browser
+### 在浏览器中使用
 
 ```html
 <!-- you can download the file locally and import it or import it dynamically by using url. -->
 <script src="https://unpkg.com/js-sdsl/dist/umd/js-sdsl.min.js"></script>
 <script>
-    const {
+    const { 
       Vector,
       Stack,
       Queue,
@@ -88,7 +90,7 @@ To help you have a better use, we also provide this [API document](https://zly20
 </script>
 ```
 
-### For npm
+### npm 引入
 
 ```javascript
 // esModule
@@ -100,33 +102,33 @@ myOrderedMap.setElement(1, 2);
 console.log(myOrderedMap.getElementByKey(1)); // 2
 ```
 
-## Build by source code
+## 从源码构建
 
-You can pull this repository and run `yarn build` to rebuild this library.
+您可以克隆此仓库后运行 `yarn build` 命令重新构建这个库
 
-## Test
+## 测试
 
-### Unit test
+### 单元测试
 
-We use jest library to write unit tests, you can see test coverage on [coveralls](https://coveralls.io/github/ZLY201/js-sdsl). You can run `yarn test:unit` command to reproduce it.
+我们使用 `jest` 库来编写我们的单元测试，并将结果同步到了 [coveralls](https://coveralls.io/github/ZLY201/js-sdsl) 上，你可以使用 `yarn test:unit` 命令来重建它
 
-### For performance
+### 对于性能的校验
 
-We tested most of the functions for efficiency. You can go to [`gh-pages/performance.md`](https://github.com/ZLY201/js-sdsl/blob/gh-pages/performance.md) to see our running results or reproduce it with `yarn test:performance` command.
+我们对于编写的所有 API 进行了性能测试，并将结果同步到了 [`gh-pages/performance.md`](https://github.com/ZLY201/js-sdsl/blob/gh-pages/performance.md) 中，你可以通过 `yarn test:performance` 命令来重现它
 
-You can also visit [here](https://js-sdsl.github.io/#/test/performance-test) to get the result.
+您也可以访问[我们的网站](https://js-sdsl.github.io/#/zh-cn/test/performance-test)来获取结果
 
-## Maintainers
+## 维护者
 
 [@ZLY201](https://github.com/ZLY201)
 
-## Contributing
+## 贡献
 
-Feel free to dive in! Open an issue or submit PRs. It may be helpful to read the [Contributor Guide](https://github.com/ZLY201/js-sdsl/blob/main/.github/CONTRIBUTING.md).
+我们欢迎所有的开发人员提交 issue 或 pull request，阅读[贡献者指南](https://github.com/ZLY201/js-sdsl/blob/main/.github/CONTRIBUTING.md)可能会有所帮助
 
-### Contributors
+### 贡献者
 
-Thanks goes to these wonderful people:
+感谢对本项目做出贡献的开发者们：
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -141,8 +143,8 @@ Thanks goes to these wonderful people:
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+本项目遵循 [all-contributors](https://github.com/all-contributors/all-contributors) 规范。 欢迎任何形式的贡献！
 
-## License
+## 许可证
 
 [MIT](https://github.com/ZLY201/js-sdsl/blob/main/LICENSE) © ZLY201
