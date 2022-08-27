@@ -1,3 +1,5 @@
+# This repository has been migrated to [js-sdsl/js-sdsl](https://github.com/js-sdsl/js-sdsl).
+
 <p align="center">
   <a href="https://js-sdsl.github.io/" target="_blank" rel="noopener noreferrer">
     <img src="https://js-sdsl.github.io/assets/logo-removebg.png" alt="js-sdsl logo" width="120" />
