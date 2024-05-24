@@ -1,11 +1,12 @@
 .vscode/
-.husky
 .idea/
 dist/
 docs/
+coverage/
 node_modules/
 .eslintcache
 .npmignore
 .npmrc
 .yarnrc
 .DS_Store
+.nyc_output
